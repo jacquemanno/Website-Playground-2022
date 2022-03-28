@@ -6,28 +6,71 @@
     <title>My Site | Jacque's Website</title>
   </head>
   <body>
-      <h1>Welcome to my website!</h1>
+    <h1 style="font-size:48px; color: blue;">Welcome to my website!</h1>
+
+    <div style="border: 2px solid #000;">
+      <p style="font-family: monospace; color: '#ccc';"></p>
       <p>My name is Jacque Manno and I'm a current Masters in Management Student at Georgetown University's McDonough School of Business.</p>
       
       <div>
       <p>I'm creating this site to complete the website structure exercsie for Internet Business Technologies.</p>
       
+      
+
       <li><a href="About Me.html">About Me</a></li>
       <li><a href="Contact.html">Contact</a></li>
 
-
   </body>
+  <div>
   <img src="Jack the Bulldog.jpg" alt="Jack the Bulldog">
   
 </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello | My Site</title>
+    <style media="screen">
 
-  <ol>
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
+      h1 {
+        font-size:48px;
+        color: red;
+      }
+
+      p {
+        font-family: monospace;
+        color: '#ccc';
+      }
+
+      div#my-divider {
+        border: 2px solid #000;
+        height: 300px;
+        width: 300px;
+      }
+
+      ol { list-style:none; }
+
+      li.horizontal { display: inline; }
+
+      .bottom { color:red; }
+
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+
+    <p>Welcome to my site.</p>
+
+    <div id="my-divider">
+      <p>Some paragraph text here!</p>
+
+      <ol>
+        <li class="horizontal">One</li>
+        <li class="horizontal">Two</li>
+        <li class="horizontal">Three</li>
       </ol>
 
-      <p>Some more text at the bottom.</p>
+      <p class="bottom">Some more text</p>
     </div>
   </body>
 </html>
